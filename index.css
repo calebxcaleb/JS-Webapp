@@ -1,0 +1,49 @@
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    color: black;
+    text-shadow: 3px 3px 2px lightcoral, 5px 5px 2px darkred;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color:#fa5788;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    border: 6px solid #ad1457;
+    box-shadow: 3px 3px 5px black;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family:serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:#c2185b;
+}
+  
+button:focus{
+    background-color:#8c0032;
+}
+
+img{
+    height: 200px;;
+    width: 200px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    margin-top: 50px;
+}
